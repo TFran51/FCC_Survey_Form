@@ -1,1 +1,96 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TFran51's Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="web-box">
+      <header class="header">
+        <h1 id="title">TFran51's Survey Form</h1>
+    <p id="description">As a part of my coding experience, I'd like to extend the opportunity for you to discuss my work on forms. I'm very passionate about coding, specifically the HTML and CSS side of things, and I hope to prove my skills through lessons taught and learned.</p>
+      </header>
+      <form id="survey-form">
+        <div id="name-box" class="form-box">
+          <label id="name-label" for="name">Name:</label>
+          <input id="name" type="text" class="form-input" placeholder="Enter Your Name" required />
+        </div>
+        <div id="email-box" class="form-box">
+          <label id="email-label" for="email">Email:</label>
+          <input id="email" type="email" class="form-input" placeholder="Enter Your Email" required />
+        </div>
+        <div id="age-box" class="form-box">
+          <label id="number-label" for="number">Age (Optional):</label>
+          <input id="number" type="number" class="form-input" min="13" max="110" placeholder="e.g. 19" />
+        </div>
+        <div id="select-box" class="form-box">
+          <label id="select-label" for="select">Please choose the color you were assigned:</label>
+          <select id="select" class="form-input" required>
+            <option disabled selected value="">Select Assigned Color</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="pink">Pink</option>
+          </select>
+        </div>
+        <div id="gender-box" class="form-box">
+          <p id="gender-text">Please State Your Gender:</p>
+          <label>
+            <input name="gender" type="radio" class="radio-input" value="Male" checked />
+            Male
+          </label>
+          <label>
+            <input name="gender" type="radio" class="radio-input" value="Female" />
+            Female
+          </label>
+          <label>
+            <input name="gender" type="radio" class="radio-input" value="Other" />
+            Other
+          </label>
+        </div>
+        <div id="checks-box" class="form-box">
+          <p id="checks-text">Select which Fruits you Eat from the List</p>
+          <label>
+            <input name="checks-choice" type="checkbox" class="checks" value="apples">
+            Apples
+          </label>
+          <label>
+            <input name="checks-choice" type="checkbox" class="checks" value="bananas">
+            Bananas
+          </label>
+          <label>
+            <input name="checks-choice" type="checkbox" class="checks" value="grapes">
+            Grapes
+          </label>
+          <label>
+            <input name="checks-choice" type="checkbox" class="checks" value="kiwis">
+            Kiwis
+          </label>
+          <label>
+            <input name="checks-choice" type="checkbox" class="checks" value="lemons">
+            Lemons
+          </label>
+          <label>
+            <input name="checks-choice" type="checkbox" class="checks" value="mangoes">
+            Mangoes
+          </label>
+          <label>
+            <input name="checks-choice" type="checkbox" class="checks" value="pears">
+            Pears
+          </label>
+        </div>
+        <div id="suggestion-box" class="form-box">
+          <p id="text">Any Questions/Suggestions?</p>
+          <textarea id="textarea" class="form-input" placeholder="I felt like this when I was taking the survey..."></textarea>
+        </div>
+        <div id="submit-box" class="form-box">
+          <button id="submit" type="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
+    </div>
+  </body>
+</html>
