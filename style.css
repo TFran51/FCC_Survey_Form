@@ -1,15 +1,99 @@
 body {
   background-color: #ffebcd;
-}
-
+ }
+ 
 #title {
-  text-align: center;
-  margin: 0;
-  padding: 0.75em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 50px;
+  color: #ddc9ab;
+   text-align: center;
+   margin: 0;
+   padding: 0.25em;
+   font-size: 40px;
+ }
+
+ #description {
+   color: #ffebcd;
+   margin: auto;
+   padding: 5px;
+   font-size: 15px;
+   width: 97%;
+   text-indent: 2em;
+   text-align: left;
+   border-radius: 5px;
+ }
+ 
+header {
+ border-radius: 25px;
+ height: 100px;
+ width: 950px;
+ padding: 12px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ }
+ 
+.form-input, form {   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ label, #gender-text, #checks-text, #text {
+   font-size: 20px;
+   padding: 2px;
 }
 
-form {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#gender-text, #checks-text, #text, #name-label, #email-label, #number-label, #select-label {
+  color: #ffebcd;
 }
+
+ #survey-form {
+     background-image: linear-gradient(to top right, #2a394b, #4c5b6d);
+  width: 950px;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: stretch;
+ }
+
+ #checks-choice, #gender {
+   width: 10%;
+   padding: 0;
+ }
+
+ input:after {
+   color: blue;
+ }
+
+ label {
+   color: #ddc9ab;
+   display: flex;
+   align-items: center;
+ }
+ 
+textarea, input[type="text"], input[type="email"], input[type="number"], select {
+  background-color: #ddc9ab;
+   width: 500px;
+   height: 75px;
+ }
+ 
+div {
+   margin: 5px;
+ }
+
+ .web-box {
+  background-image: linear-gradient(to top right,#002e5c, #3b4a5c);
+  height: 1350px;
+  width: 1000px;
+  border-radius: 35px;
+  padding: 12px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+ }
+
+ button {
+   background-color: #ddc9ab;
+ }
